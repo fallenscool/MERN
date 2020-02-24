@@ -1,0 +1,25 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "Mern stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Vladimir Spivachevsky <spivachevsky.v@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.2.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
